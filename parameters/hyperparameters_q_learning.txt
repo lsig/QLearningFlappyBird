@@ -1,0 +1,35 @@
+self.eps_start = 0.9
+self.eps_decay = 100000
+self.eps_end = 0.05
+self.alpha = 0.25
+self.alpha_end = 0.05
+self.alpha_decay = 0.999
+self.gamma = 0.99
+tabs = 25
+
+Train: 10000
+Training Time: 13:02 minutes
+Max Train: 113
+
+Test: 100
+Max score: 6278
+90% over 50: True
+
+self.eps_start = 0.9
+self.eps_decay = 100000
+self.eps_end = 0.05
+self.alpha = 0.25
+self.alpha_end = 0.05
+self.alpha_decay = 0.999
+self.gamma = 0.99
+tabs = 25
+
+M1 chip
+Train: 25000 
+Training Time: 13:24 minutes
+Max Train: 224 
+
+Test: 100
+Max score: 18208
+90% over 50: True
+

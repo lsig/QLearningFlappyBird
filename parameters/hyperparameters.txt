@@ -1,0 +1,300 @@
+batch_size=256,
+gamma=0.99,
+eps_start=0.9,
+eps_end=0.01,
+eps_decay=1000,
+tau=0.005,
+lr=0.001,
+update_freq=100,
+memory=10000
+
+self.layer1 = nn.Linear(n_observations, 100)
+self.layer2 = nn.Linear(100, 100)
+self.layer3 = nn.Linear(100, 100)
+self.layer4 = nn.Linear(100, 64)
+self.layer5 = nn.Linear(64, n_actions)
+
+Train: 5000
+Max Train: 10.0
+
+Test: 
+Max Test: 7.0
+
+batch_size=256,
+gamma=0.99,
+eps_start=0.9,
+eps_end=0.01,
+eps_decay=1000,
+tau=0.005,
+lr=0.005,
+update_freq=100,
+memory=10000
+
+self.layer1 = nn.Linear(n_observations, 100)
+self.layer2 = nn.Linear(100, 100)
+self.layer3 = nn.Linear(100, 100)
+self.layer4 = nn.Linear(100, 64)
+self.layer5 = nn.Linear(64, n_actions)
+
+Train: 5000
+Max Train: -10.0
+
+Test: 
+Max Test: 0.0
+
+batch_size=256,
+gamma=0.99,
+eps_start=0.9,
+eps_end=0.01,
+eps_decay=1000,
+tau=0.005,
+lr=0.0025,
+update_freq=100,
+memory=10000
+
+self.layer1 = nn.Linear(n_observations, 100)
+self.layer2 = nn.Linear(100, 100)
+self.layer3 = nn.Linear(100, 100)
+self.layer4 = nn.Linear(100, 64)
+self.layer5 = nn.Linear(64, n_actions)
+
+Train: 5000
+Max Train: 675.0
+
+Test: 
+Max Test: 0.0
+
+batch_size=256,
+gamma=0.99,
+eps_start=0.9,
+eps_end=0.01,
+eps_decay=1000,
+tau=0.005,
+lr=0.002,
+update_freq=100,
+memory=10000
+
+self.layer1 = nn.Linear(n_observations, 100)
+self.layer2 = nn.Linear(100, 100)
+self.layer3 = nn.Linear(100, 100)
+self.layer4 = nn.Linear(100, 64)
+self.layer5 = nn.Linear(64, n_actions)
+
+Train: 5000
+Max Train: 455.0
+
+Test: 
+Max Test: 5.0
+
+
+
+batch_size=128,
+gamma=0.99,
+eps_start=0.9,
+eps_end=0.01,
+eps_decay=1000,
+tau=0.005,
+lr=0.001,
+update_freq=100,
+
+self.layer1 = nn.Linear(n_observations, 128)
+self.layer2 = nn.Linear(128, 128)
+self.layer3 = nn.Linear(128, 64)
+self.layer4 = nn.Linear(64, n_actions)
+
+Train: 5000
+Max Train: 35.0
+
+Test: 1000
+Max Test: 3.0
+
+
+batch_size=128,
+gamma=0.99,
+eps_start=0.9,
+eps_end=0.01,
+eps_decay=1000,
+tau=0.005,
+lr=0.0005,
+update_freq=100,
+
+self.layer1 = nn.Linear(n_observations, 128)
+self.layer2 = nn.Linear(128, 128)
+self.layer3 = nn.Linear(128, 64)
+self.layer4 = nn.Linear(64, n_actions)
+
+Train: 5000
+Max Train: 465
+
+Test: 1000
+Max Test: 31.0
+
+batch_size=128,
+gamma=0.99,
+eps_start=0.9,
+eps_end=0.01,
+eps_decay=1000,
+tau=0.005,
+lr=0.0005,
+update_freq=100,
+
+#relu
+self.layer1 = nn.Linear(n_observations, 128)
+self.layer2 = nn.Linear(128, 128)
+self.layer3 = nn.Linear(128, n_actions)
+
+Train: 5000
+Max Train: 1620
+
+Test: 1000
+Max Test: 41.0
+
+
+batch_size=128,
+gamma=0.99,
+eps_start=0.9,
+eps_end=0.01,
+eps_decay=1000,
+tau=0.005,
+lr=0.00025,
+update_freq=100,
+
+#relu
+self.layer1 = nn.Linear(n_observations, 128)
+self.layer2 = nn.Linear(128, 128)
+self.layer3 = nn.Linear(128, n_actions)
+
+Train: 5000
+Max Train: 2660
+
+Test: 1000
+Max Test: 85.0
+
+batch_size=256,
+gamma=1.0,
+eps_start=0.9,
+eps_end=0.01,
+eps_decay=25000,
+tau=0.005,
+lr=0.003,
+update_freq=100,
+
+self.layer1 = nn.Linear(n_observations, 100)
+self.layer2 = nn.Linear(100, 10)
+self.layer3 = nn.Linear(10, n_actions)
+
+Train: 5000
+Max Train:215 
+
+Test: 1000
+Max Test: 90.0
+
+
+#relu
+batch_size=128,
+gamma=0.99,
+eps_start=0.5,
+eps_end=0.01,
+eps_decay=25000,
+tau=0.005,
+lr=1e-4,
+update_freq=100,
+
+self.layer1 = nn.Linear(n_observations, 100)
+self.layer2 = nn.Linear(100, 100)
+self.layer3 = nn.Linear(100, n_actions)
+
+Train: 7500
+Max Train: 234
+
+Test: 3000
+Max Test: 140
+
+Train: 17500
+Max Train: 372 
+
+Test: 5000
+Max Test: 223
+
+
+#relu
+batch_size=128,
+gamma=1.0,
+eps_start=0.9,
+eps_end=0.05,
+eps_decay=100000,
+tau=0.005,
+lr=1e-4,
+update_freq=100,
+
+self.layer1 = nn.Linear(n_observations, 128)
+self.layer2 = nn.Linear(128, 128)
+self.layer3 = nn.Linear(128, n_actions)
+
+Train: 10000
+Max Train: 190
+
+Test: 2000
+Max Test: 237
+
+#relu
+batch_size=128,
+gamma=1.0,
+eps_start=0.9,
+eps_end=0.05,
+eps_decay=100000,
+tau=0.005,
+lr=1e-4 * 4,
+update_freq=100,
+
+self.layer1 = nn.Linear(n_observations, 128)
+self.layer2 = nn.Linear(128, 128)
+self.layer3 = nn.Linear(128, n_actions)
+
+Train: 10000
+Max Train: 190
+
+Test: 100
+Max score: 915
+
+
+#relu
+batch_size=128,
+gamma=0.99,
+eps_start=0.9,
+eps_end=0.01,
+eps_decay=100000,
+tau=0.005,
+lr=1e-4 * 5,
+update_freq=100,
+
+self.layer1 = nn.Linear(n_observations, 256)
+self.layer2 = nn.Linear(256, 256)
+self.layer3 = nn.Linear(256, 32)
+self.layer4 = nn.Linear(32, n_actions)
+
+graph: learning_curve10000
+
+Train: 10000
+Max Train: 996
+
+Test: 100
+Max score: 188 
+
+batch_size=128,
+gamma=0.99,
+eps_start=0.9,
+eps_end=0.01,
+eps_decay=100000,
+tau=0.005,
+lr=1e-4 * 5,
+update_freq=100,
+
+graph: learning_curve_base
+
+Train: 7500 
+Max Train: 130 
+
+Test: 100
+Max score: 41
+
